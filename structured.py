@@ -20,7 +20,6 @@ def filter_data(in_string: str) -> list:
                 j += 1
             expression_list.append(float(filtered_string[i: i + j]))
             i += j
-            pass
         else:
             expression_list.append(cur_char)
             i += 1
